@@ -1,0 +1,23 @@
+{
+    "name": "walkie-talkie",
+    "version": "0.1.0",
+    "description": "micro:bit V2 telsiz + Mini Zeka ruh hâli ve ton motoru",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "core.ts",
+        "radio.ts",
+        "brain.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
